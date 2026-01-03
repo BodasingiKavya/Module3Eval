@@ -22,7 +22,7 @@ const AddRestaurantForm = ( {refresh})=>{
     refresh();
     setForm({...form,restaurantName:"",address:""});
     return (
-        <div>
+        <div >
             <h3>Add Restaurant</h3>
             <input placeholder="Name" onChange={(e)=>setForm({...form,restaurantNamee:e.target.value})}/>
             <input placeholder="Address" onChange={(e)=>setForm({...form,address:e.target.value})}/>

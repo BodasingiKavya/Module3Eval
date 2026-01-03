@@ -1,8 +1,8 @@
 const RestaurantCard =({data,isAdmin,onDelete,onUpdate})=>{
     return (
         <>
-            <div>
-                <img src={data.image} alt={data.restaurantName} />
+            <div style={{border:"1px solid grey",margin:10,padding:10}}>
+                <img src={data.image} width={150} alt={data.restaurantName} />
                 <h3>{data.restaurantName}</h3>
                 <p>{data.address}</p>
                 <p>{data.type}</p>
